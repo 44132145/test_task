@@ -1,0 +1,15 @@
+#dateform-startdate{width: 150px; margin-right: 10px}
+.col-sm-6{width: auto}
+.form-group .field-dateform-startdate{width: auto;}
+.form-group{display: flex}
+
+#page{width: 100%; height: 100%; padding: 20px;}
+
+.border{border: 1px solid #000000; border-radius: 5px}
+
+div .generateForm{width: 100%; border-color: #909090; padding: 5px 5px 0;}
+div .treePage{width: 100%; height: 95%; border-color: #444444;}
+.generateForm #FormMsgBox{min-height: 10%; width: 50%; position: absolute;  right: 10px;  top: 5px; border-color: #ec971f}
+
+#threadform-number {width:150px; display:inline-table}
+#ThreadForm .form-group{display:inline-table}
