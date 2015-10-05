@@ -195,7 +195,8 @@ class outsourceModule extends AbstractModule
 
     public function __destruct()
     {
-        $this->dbConnection->createCommand(Yii::$app->params['currDiffUpdate'])->execute();
+        $this->dbConnection->createCommand(Yii::$app->params['currDiffUpdate'])
+            ->bindValue(':date',  Yii::$app->formatter->asDate($this->InputDate, Yii::$app->params['DbFormat']))->execute();
     }
 }
 ?>
